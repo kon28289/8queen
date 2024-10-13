@@ -30,7 +30,7 @@ const NQueens = () => {
             );
             return newBoard;
         });
-    };
+    }
 
     const backTracking = async (depth) => {
         if (depth === boardSize) {
