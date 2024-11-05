@@ -1,0 +1,97 @@
+/* src/components/NQueens.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.input {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.select {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.board-container {
+    margin-bottom: 20px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.board-cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.white-cell {
+    background-color: #f0d9b5; /* 흰색 셀 색상 */
+}
+
+.black-cell {
+    background-color: #b58863; /* 검은색 셀 색상 */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    font-size: 18px;
+    color: #333;
+}
